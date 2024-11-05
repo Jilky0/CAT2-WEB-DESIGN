@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            text-align: center;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        button {
+            color: blueviolet;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            size: large;
+        }
+        h1 {
+                text-align: center;
+                font-family: serif;
+                font-weight: normal;
+                text-transform: uppercase;
+                border-bottom: 1px solid #57b1dc;
+                margin-top: 30px;
+            }
+    </style>
+  </head>
+  <body>
+    <h1> Register your account</h1>
+    <form>
+      <i class='bx bx-user'></i>
+      <label for="name"></label>
+      <input type="text" id="name" placeholder="Name" name="username">
+      <br>
+      <i class='bx bx-envelope'></i>
+      <label for="email"></label><br>
+      <input type="email" id="email" placeholder="Email ID" name="email">
+      <br>
+      <i class='bx bxs-phone'></i>
+      <label for="phone"></label><br>
+      <input type="phone" id="phone" placeholder="Phone" name="phone">
+      <br>
+      <i class='bx bx-lock-alt' ></i>
+      <label for="password"></label><br>
+      <input type="password" id="password" placeholder="Set Password" name="password">
+      <br>
+      <br>
+      <button onclick="submit">REGISTER</button>
+    </form>
+    </div>
+  </body>
+</html>
