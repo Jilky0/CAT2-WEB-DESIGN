@@ -39,7 +39,7 @@
         const incomeTax=incomeTax
         
         if (basicPay<20000) {
-           incomeTax= basicPay * 1
+           incomeTax= 0
         } else 
             if(basicPay>50000){
               incomeTax= basicPay * 0.2
